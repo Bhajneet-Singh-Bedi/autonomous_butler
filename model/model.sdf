@@ -19,11 +19,17 @@
 -->
 
 <sdf version="1.6">
-  <model name='vehicle_blue'>
-    <pose>0 2 0.325 0 -0 0</pose>
 
-    <link name='chassis'>
-      <pose>-0.151427 -0 0.175 0 -0 0</pose>
+
+  <model name='vehicle_blue'>
+
+
+    <frame name="odom">
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+
+    <link name='base_link'>
+      <pose relative_to="odom">-0.151427 -0 0.175 0 -0 0</pose>
       <inertial>
         <mass>1.14395</mass>
         <inertia>
@@ -246,7 +252,7 @@
     </link>
 
     <joint name='left_wheel_joint' type='revolute'>
-      <parent>chassis</parent>
+      <parent>base_link</parent>
       <child>left_wheel</child>
       <axis>
         <xyz>0 0 1</xyz>
@@ -258,7 +264,7 @@
     </joint>
 
     <joint name='right_wheel_joint' type='revolute'>
-      <parent>chassis</parent>
+      <parent>base_link</parent>
       <child>right_wheel</child>
       <axis>
         <xyz>0 0 1</xyz>
@@ -270,12 +276,12 @@
     </joint>
 
     <joint name='caster_wheel' type='ball'>
-      <parent>chassis</parent>
+      <parent>base_link</parent>
       <child>caster</child>
     </joint>
 
     <joint name="lidar_joint" type="fixed">
-      <parent>chassis</parent>
+      <parent>base_link</parent>
       <child>lidar</child>
       <axis>
         <xyz>0 0 1</xyz>
@@ -291,6 +297,14 @@
       <wheel_separation>1.25</wheel_separation>
       <wheel_radius>0.3</wheel_radius>
       <odom_publish_frequency>1</odom_publish_frequency>
+      <left_joint>left_wheel_joint</left_joint>
+      <right_joint>right_wheel_joint</right_joint>
+      <!-- <publish_odom>true</publish_odom> -->
+      <!-- <publish_odom_tf>true</publish_odom_tf> -->
+      <!-- <publish_wheel_tf>true</publish_wheel_tf> -->
+
+      <!-- <odom_frame>odom</odom_frame> -->
+      <!-- <robot_base_frame>base_link</robot_base_frame> -->
       <max_linear_acceleration>1</max_linear_acceleration>
       <min_linear_acceleration>-1</min_linear_acceleration>
       <max_angular_acceleration>2</max_angular_acceleration>

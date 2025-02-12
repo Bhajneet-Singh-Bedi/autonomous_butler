@@ -42,7 +42,7 @@ def generate_launch_description():
         PythonLaunchDescriptionSource(
             os.path.join(pkg_ros_gz_sim, 'launch', 'gz_sim.launch.py')),
         launch_arguments={
-            'gz_args': ' -v4  /home/bhajneet/ros2_ws/src/autonomous_butler/worlds/gazebo.sdf'
+            'gz_args': ' -v4 -r /home/bhajneet/ros2_ws/src/autonomous_butler/worlds/gazebo.sdf'
         }.items(),
     )
 
@@ -64,9 +64,9 @@ def generate_launch_description():
     bridge = Node(
         package='ros_gz_bridge',
         executable='parameter_bridge',
-        arguments=['/model/vehicle_blue/cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
-                   '/model/vehicle_blue/odometry@nav_msgs/msg/Odometry@gz.msgs.Odometry',
-                   'lidar@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan'],
+        arguments=['cmd_vel@geometry_msgs/msg/Twist@gz.msgs.Twist',
+                   'odom@nav_msgs/msg/Odometry@gz.msgs.Odometry',
+                   'scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan'],
         parameters=[{'qos_overrides./model/vehicle_blue.subscriber.reliability': 'reliable'}],
         output='screen'
     )                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

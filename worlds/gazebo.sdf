@@ -11,6 +11,12 @@
         <plugin name='gz::sim::systems::SceneBroadcaster'
             filename='ignition-gazebo-scene-broadcaster-system' />
         <plugin name='gz::sim::systems::Contact' filename='ignition-gazebo-contact-system' />
+
+        <plugin filename="ignition-gazebo-sensors-system" name="gz::sim::systems::Sensors">
+            <render_engine>ogre2</render_engine>
+        </plugin>
+
+
         <gravity>0 0 -9.8</gravity>
         <magnetic_field>6e-06 2.3e-05 -4.2e-05</magnetic_field>
         <atmosphere type='adiabatic' />
@@ -142,17 +148,17 @@
         </include>
         <include>
             <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
-            <name>Table</name>
+            <name>Table_1</name>
             <pose>-5.93697 -6.33041 0 0 -0 0</pose>
         </include>
         <include>
             <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
-            <name>Table_1</name>
+            <name>Table_2</name>
             <pose>-4.07527 7.05056 0 0 -0 0</pose>
         </include>
         <include>
             <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
-            <name>Table_1_1</name>
+            <name>Table_3</name>
             <pose>5.00281 -6.14715 0 0 -0 0</pose>
         </include>
         <include>

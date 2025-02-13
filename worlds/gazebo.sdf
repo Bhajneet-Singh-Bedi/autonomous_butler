@@ -72,122 +72,92 @@
     <include>
       <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
       <name>grey_wall</name>
-      <pose>6.27246 10.1858 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_1</name>
-      <pose>-0.83282 10.1451 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2</name>
-      <pose>-6.28981 10.1351 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1</name>
-      <pose>-10.0977 6.5015 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_1</name>
-      <pose>-10.0636 -0.943261 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_1_1</name>
-      <pose>-10.0491 -6.36674 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_2</name>
-      <pose>-6.38353 -10.0486 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_1_1</name>
-      <pose>0.6884 -10.0386 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_3</name>
-      <pose>6.27918 -10.0139 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_1_1_1</name>
-      <pose>10.033 -6.35518 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_1_2</name>
-      <pose>10.0619 1.04043 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_2</name>
-      <pose>10.0431 6.61703 0 0 0 -1.5708</pose>
+      <pose>6.27246 5.52863 0 0 -0 0</pose>
     </include>
     <include>
       <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
       <name>Table_1</name>
-      <pose>-5.93697 -6.33041 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
-      <name>Table_2</name>
-      <pose>-4.07527 7.05056 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
-      <name>Table_3</name>
-      <pose>5.00281 -6.14715 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_4</name>
-      <pose>6.18674 -2.52191 0 0 -0 0</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_2_1</name>
-      <pose>2.42223 1.1654 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_2_1_2_1_1</name>
-      <pose>-1.98091 -6.41796 0 0 0 -1.5708</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
-      <name>grey_wall_4_1</name>
-      <pose>-6.29197 1.57495 0 0 -0 0</pose>
+      <pose>-1.12589 -6.93587 0 0 0 -1.5708</pose>
     </include>
     <include>
       <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
       <name>person_standing</name>
-      <pose>-6.06126 -7.10405 0 0 -0 3.14159</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
-      <name>person_standing_1</name>
-      <pose>5.118 -6.97656 0 0 -0 3.14159</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
-      <name>person_standing_2</name>
-      <pose>-4.17558 7.7924 0 0 0 -3e-06</pose>
-    </include>
-    <include>
-      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
-      <name>person_standing_2_1</name>
-      <pose>7.275 0.597959 0 0 -0 3.14159</pose>
+      <pose>7.37772 -7.29507 -1e-06 0 -0 3.14159</pose>
     </include>
     <include>
       <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/kitchencountertop/3</uri>
       <name>KitchenCountertop</name>
-      <pose>7.0859 1.8084 0 0 0 -1.57079</pose>
+      <pose>7.05285 -6.48712 0 0 0 -1.57079</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1</name>
+      <pose>-1.14447 5.51451 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_1</name>
+      <pose>-4.79497 1.77244 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_1_1</name>
+      <pose>-4.7859 -5.65156 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_2</name>
+      <pose>-1.00974 -9.28429 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_2</name>
+      <pose>6.40078 -9.28857 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_1_1_1</name>
+      <pose>10.0634 -5.66249 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_1_2</name>
+      <pose>10.0573 1.74035 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
+      <name>Table_1_1</name>
+      <pose>-1.94701 2.09008 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/table/4</uri>
+      <name>Table_1_1_1</name>
+      <pose>7.48285 1.45783 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_1_2_1</name>
+      <pose>2.19692 1.76358 0 0 0 -1.5708</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/grey wall/3</uri>
+      <name>grey_wall_1_3</name>
+      <pose>-1.18223 -3.79384 0 0 -0 0</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
+      <name>person_standing_1</name>
+      <pose>-1.96577 -7.09761 -0 0 0 1.57079</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
+      <name>person_standing_1_1</name>
+      <pose>-1.98378 3.09395 -0 0 0 -3e-06</pose>
+    </include>
+    <include>
+      <uri>file:///home/bhajneet/.ignition/fuel/fuel.gazebosim.org/openrobotics/models/standing person/3</uri>
+      <name>person_standing_1_1_1</name>
+      <pose>7.54331 2.49802 -0 -0 -0 -3e-06</pose>
     </include>
     <light name='sun' type='directional'>
       <pose>0 0 10 0 -0 0</pose>

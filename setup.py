@@ -16,10 +16,7 @@ setup(
 	    (os.path.join('share', package_name, 'model'), glob('model/*')),
 	    (os.path.join('share', package_name, 'config'), glob('config/*')),
 	    (os.path.join('share', package_name, 'rviz'), glob('rviz/*')),
-
-
-
-
+	    (os.path.join('share', package_name, 'maps'), glob('maps/*'))
 
     ],
     install_requires=['setuptools'],
@@ -31,6 +28,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'navigate_to_pose = autonomous_butler.navigate_to_pose:main'
         ],
     },
 )

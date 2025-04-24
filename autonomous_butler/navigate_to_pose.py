@@ -32,10 +32,16 @@ def main():
     initial_pose = PoseStamped()
     initial_pose.header.frame_id = 'map'
     initial_pose.header.stamp = navigator.get_clock().now().to_msg()
-    initial_pose.pose.position.x = 0.0
-    initial_pose.pose.position.y = 0.0
-    initial_pose.pose.orientation.z = 0.0
-    initial_pose.pose.orientation.w = 0.0
+    initial_pose.pose.position.x = 1.98965
+    initial_pose.pose.position.y = -0.00592909
+    initial_pose.pose.orientation.z = -0.00847541
+    initial_pose.pose.orientation.w = 0.999964
+    
+    # initial_pose.pose.position.x = 0.0
+    # initial_pose.pose.position.y = 0.0
+    # initial_pose.pose.orientation.z = 0.0
+    # initial_pose.pose.orientation.w = 0.0
+    
     navigator.setInitialPose(initial_pose)
 
     # Activate navigation, if not autostarted. This should be called after setInitialPose()
@@ -58,8 +64,8 @@ def main():
     goal_pose = PoseStamped()
     goal_pose.header.frame_id = 'map'
     goal_pose.header.stamp = navigator.get_clock().now().to_msg()
-    goal_pose.pose.position.x = 17.86
-    goal_pose.pose.position.y = -0.77
+    goal_pose.pose.position.x = 3.2
+    goal_pose.pose.position.y = 1.8
     goal_pose.pose.orientation.w = 1.0
     goal_pose.pose.orientation.z = 0.0
 

@@ -98,7 +98,7 @@ def generate_launch_description():
     ]
 
     spawn_entity = Node(
-        package="ros_gz_sim",
+        package="ros_ign_gazebo",
         executable="create",
         output="screen",
         arguments=[
@@ -109,7 +109,7 @@ def generate_launch_description():
             "-z",
             "1.0",
             "-x",
-            "-2.0",
+            "0.0",
             "--ros-args",
             "--log-level",
             log_level,
@@ -118,7 +118,7 @@ def generate_launch_description():
     )
 
     bridge = Node(
-        package="ros_gz_bridge",
+        package="ros_ign_bridge",
         executable="parameter_bridge",
         arguments=[
             "/scan@sensor_msgs/msg/LaserScan[ignition.msgs.LaserScan",
